@@ -1,0 +1,54 @@
+:root {
+  --prymery-text-color: #212121;
+  --tittle-text-color: #757575;
+  --accent-color: rgba(33, 150, 243, 1);
+}
+
+body {
+  background-color: #ffffff;
+  color: var(--prymery-text-color);
+}
+.list {
+  list-style: none;
+}
+/* site nav */
+.site-nav .link {
+  color: var(--prymery-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: rgba(33, 150, 243, 1);
+}
+/* auth-nav */
+.auth-nav .link {
+  color: var(--prymery-text-color);
+}
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: rgba(33, 150, 243, 1);
+}
+/* первая секция */
+.section-hero {
+  background-color: #2f303a;
+}
+.hero {
+  color: #ffffff;
+}
+/* section */
+.section-tittle {
+  color: var(--prymery-text-color);
+}
+.feature .tittle {
+  color: var(--prymery-text-color);
+}
+
+/* цвет вторичного текста  #212121; */
+/* цвет основного текста  #757575; */
+/* #FFFFFF; белый h1 */
+/* background: #2F303A; h1 */
+/* футер ссилка и мейл rgba(255, 255, 255, 0.6); */
+/* акцент  rgba(33, 150, 243, 1); */
+/* хедер background: #FFFFFF; */
+/* вторичный цвет фона background: #E5E5E5; */
+/* наша команда фон background: #F5F4FA; */
+/* футе фонbackground: #2F303A;  */ ;
