@@ -98,6 +98,13 @@ text-transform: uppercase;
 .section-three {
   background-color: var(--accent-bgc)
 }
+
+.text {
+  font-weight: 400;
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+}
 /* ФУТЕР */
 .footer {
 background-color: var(--accent-footer-bgc);
