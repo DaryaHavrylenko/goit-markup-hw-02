@@ -139,6 +139,8 @@ body {
   color: #212121;
   background-color: #f5f4fa;
   cursor: pointer;
+
+  font-family: inherit;
 }
 .button.prymery {
   font-weight: 700;
