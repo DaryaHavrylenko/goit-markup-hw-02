@@ -64,7 +64,7 @@ body {
 /* AUTH-NAV */
 
 .auth-nav .link {
-  color: var(--tittle-text-color)
+  color: var(--tittle-text-color);
 
   font-weight: 500;
   font-style: normal;
@@ -108,12 +108,19 @@ body {
 .feature .tittle {
   color: var(--prymery-text-color);
 }
-
 .tittle {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.tittle-command {
+  color: var(--prymery-text-color);
+
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
+  line-height: 1.18;
 }
 .tittle-portfol {
   color: var(--prymery-text-color);
@@ -124,9 +131,12 @@ body {
   letter-spacing: 0.06em;
 }
 
+.text {
+  line-height: 1.7;
+}
+
 .text-studio {
   color: var(--tittle-text-color);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
 }
@@ -137,7 +147,6 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.9;
-  letter-spacing: 0.03em;
 }
 
 /* ФУТЕР */
@@ -147,7 +156,7 @@ body {
 }
 .address {
   color: var(--white-color);
-  font-weight: 400;
+
   line-height: 1.7;
   letter-spacing: 0.03em;
   font-style: normal;
@@ -156,10 +165,12 @@ body {
   color: rgba(255, 255, 255, 0.6);
 
   font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.19;
+  font-size: 14px;
+  line-height: 1.7;
   letter-spacing: 0.03em;
+}
+a {
+  text-decoration: none;
 }
 
 .list .link:hover,
